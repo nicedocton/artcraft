@@ -2,7 +2,7 @@
   "name": "art-craft",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://falah.uz",
+  "homepage": "https://nicedocton.github.io/artcraft/",
   "dependencies": {
     "@fancyapps/ui": "^4.0.25",
     "@testing-library/jest-dom": "^5.14.1",
