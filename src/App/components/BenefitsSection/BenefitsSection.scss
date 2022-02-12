@@ -1,0 +1,67 @@
+@import '../../scss/variables';
+
+.benefits {
+	padding: 60px 0;
+	position: relative;
+	&__title {
+		padding-right: 150px;
+		margin-bottom: 80px;
+	}
+	&__slider {
+		margin: 0 -10px;
+		.slick-slide > div {
+			width: 100%;
+			padding: 0 15px;
+		}
+	}
+	&__slide {
+		width: 100%;
+		min-height: 262px;
+		display: flex !important;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		background: #f9f7ff;
+		border-radius: 6px;
+		padding: 20px 40px;
+		transition: all 0.3s ease 0s;
+		.slick-current & {
+			background-color: $purple;
+		}
+	}
+	&__icon {
+		display: block;
+		width: 50px;
+		height: 50px;
+		margin-bottom: 25px;
+		color: $purple;
+		svg {
+			width: 50px;
+			height: 50px;
+			color: $purple;
+			fill: none;
+			transition: all 0.3s ease 0s;
+		}
+		.slick-current & {
+			color: #ffffff;
+			svg {
+				color: #ffffff;
+			}
+		}
+	}
+	&__text {
+		font-family: Inter;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 29px;
+		color: $purple;
+		transition: all 0.3s ease 0s;
+		.slick-current & {
+			color: #ffffff;
+		}
+	}
+	.ourWorks__buttons-wrap ._container {
+		position: relative;
+		z-index: 2;
+	}
+}

@@ -1,0 +1,58 @@
+{
+  "name": "art-craft",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://falah.uz",
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.25",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
+    "i18next": "^21.3.3",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "i18next-http-backend": "^1.3.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.13.0",
+    "react-icons": "^4.3.1",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "react-slick": "^0.28.1",
+    "react-svg": "^14.1.10",
+    "react-yandex-maps": "^4.6.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-fast-marquee": "^1.2.1"
+  }
+}

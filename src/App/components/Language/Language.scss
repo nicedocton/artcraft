@@ -1,0 +1,113 @@
+.language {
+	position: relative;
+	margin-right: 41px;
+	ul {
+		opacity: 0;
+		visibility: hidden;
+		transition: all 0.3s ease 0s;
+		position: absolute;
+		top: 54px;
+		right: 0;
+		border-radius: 8px;
+		overflow: hidden;
+		width: 100%;
+		min-width: 172px;
+		background: #ffffff;
+		border: 1px solid #dfe4e9;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 10px #dfe4e9;
+		border-radius: 4px;
+		li {
+			display: block;
+			width: 100%;
+		}
+		&._active {
+			opacity: 1;
+			visibility: visible;
+			top: 40px;
+		}
+	}
+	&__item {
+		background: none;
+		border: none;
+		padding: 12px 10px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		font-size: 15px;
+		line-height: 18px;
+		color: #222222;
+		font-weight: 600;
+		transition: all 0.3s ease-in 0s;
+		span {
+			margin-right: 10px;
+			display: block;
+			width: 28px;
+			height: 20px;
+		}
+		&:hover {
+			background-color: #c4c4c4;
+		}
+	}
+	&__btn {
+		background: none;
+		border: 0;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 28px;
+		color: #222831;
+		text-transform: capitalize;
+		padding: 0 6px;
+		height: 28px;
+		.icon-flag {
+			width: 28px;
+			height: 20px;
+			border-radius: 3px;
+			background-size: contain;
+			background-position: center;
+			margin-right: 6px;
+		}
+		svg {
+			width: 14px;
+			height: 8px;
+			margin-left: 11px;
+			transition: transform 0.3s ease;
+			stroke: #9ba1a7;
+			._active & {
+				transform: rotate(180deg);
+			}
+		}
+		.isOpen & {
+			color: #fff;
+			svg {
+				stroke: #fff;
+			}
+		}
+	}
+	@media screen and (max-width: 768px) {
+		transition: all 0.3s ease 0s;
+	}
+}
+
+.icon-gb {
+	background-image: url('../../assets/icons/gb-flag.svg');
+	background-size: 28px 20px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.icon-ru {
+	background-image: url('../../assets/icons/ru-flag.svg');
+	background-size: 28px 20px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.icon-uz {
+	background-image: url('../../assets/icons/uz-flag.svg');
+	background-size: 28px 20px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}

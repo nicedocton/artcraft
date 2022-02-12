@@ -1,0 +1,41 @@
+{
+	"mainMenu": {
+        "about": "Biz haqimizda",
+        "features": "Tanlangan",
+        "services": "Xizmatlar",
+        "contacts": "Kontaktlar"
+    },
+	"about": {
+		"title": "Biz haqimizda",
+		"text": "Har qanday vertikal sirtlarda to'g'ridan-to'g'ri chop etish! Kompaniya jihozlarining xilma-xilligi shisha va plitkalar, beton, g'isht, yog'och va boshqalar kabi har qanday materiallarga tasvirlarni qo'llash imkonini beradi."
+	},
+	"ourWorks": {
+		"title": "Bizning Ishlarimiz"
+	},
+	"benefits": {
+		"title": "Afzalliklar"
+	},
+	"services": {
+		"title": "Keyingi g'oyangiz uchun to'g'ri xizmat turini tanlang.",
+		"subtitle": "Xizmat turlari"
+	},
+	"features": {
+		"title": "Devoringizda keyingi avlod texnologiyasiga asoslangan san'atdan foydalaning.",
+		"subtitle": "Saralangan ishlar"
+	},
+	"videoSection": {
+		"title": "Qanday qilib minglab san'at asarlarini qilganimizni tomosha qiling",
+		"subtitle": "Bizning ishlarimiz"
+	},
+	"contacts": {
+		"title": "Hoziroq qo'ng'iroq qiling va biz imkon qadar tezroq siz bilan bog'lanamiz",
+		"subtitle": "Biz bilan bog'laning",
+		"address": "Manzil",
+		"phone": "Telefon",
+		"email": "Elektron manzil",
+		"addressText": "Toshkent shahar, Zulfiyaxonim ko'chas 1A"
+	},
+	"footer": {
+		"copy": "Barcha huquqlar himoyalangan."
+	}
+}

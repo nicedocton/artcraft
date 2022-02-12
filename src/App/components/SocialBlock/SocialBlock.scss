@@ -1,0 +1,25 @@
+@import '../../scss/variables';
+
+.socials {
+	display: flex;
+	justify-content: flex-start;
+	&__link {
+		display: block;
+		width: 24px;
+		height: 24px;
+		svg {
+			width: 24px;
+			height: 24px;
+			fill: #98a2b3;
+			transition: all 0.3s ease 0s;
+		}
+		&:hover {
+			svg {
+				fill: $purple;
+			}
+		}
+		& + a {
+			margin-left: 24px;
+		}
+	}
+}

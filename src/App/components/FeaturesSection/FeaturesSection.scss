@@ -1,0 +1,181 @@
+@import '../../scss/variables';
+
+.features {
+	position: relative;
+	padding: 60px 0;
+	&__header {
+		width: 50%;
+		min-height: 256px;
+		display: flex;
+		flex-direction: column;
+		margin-left: 50%;
+		padding-left: 44px;
+		align-items: flex-start;
+		position: relative;
+		background-color: #e5e5e5;
+		z-index: 2;
+	}
+	&__subtitle.subtitle {
+		display: inline-block;
+	}
+	&__title {
+	}
+	&__slider {
+		margin-top: -256px;
+	}
+	&__slide {
+		padding-top: 256px;
+		width: 350px;
+		height: 606px;
+		transition: all 0.3s ease 0s;
+		img {
+			width: 100%;
+			height: 100%;
+			transition: all 0.3s ease 0s;
+			object-fit: cover;
+		}
+	}
+	.slick {
+		&-slide {
+			padding: 0 15px;
+			&.slick-current {
+				.features__slide {
+					padding-top: 0;
+					width: 445px;
+				}
+			}
+		}
+		&-list {
+			overflow: visible;
+		}
+		&-track {
+			display: flex;
+			align-items: flex-end;
+		}
+		&-arrow {
+			position: absolute;
+			left: calc(50% + 48px);
+			top: 198px;
+			cursor: pointer;
+			display: block;
+			width: 52px;
+			height: 28px;
+			position: relative;
+			background: none;
+			&:before,
+			&:after {
+				background: #fff;
+				content: '';
+				display: block;
+				width: 18px;
+				height: 2px;
+				position: absolute;
+				top: calc(50% - (2px / 2));
+			}
+			span {
+				background: #fff;
+				content: '';
+				display: block;
+				width: 30px;
+				height: 2px;
+				position: absolute;
+				top: calc(50% - (2px / 2));
+				width: 50px;
+				transition: background-color 0.3s, width 0.3s ease 0s;
+			}
+			&:hover {
+				background: none;
+				transform: none;
+			}
+			&.slick-prev {
+				transform: none;
+				span {
+					left: 0;
+					transform-origin: left 50%;
+					transition: width 0.3s, left 0.3s 0.05s;
+				}
+				&:before {
+					transform: rotate(-45deg);
+					left: 0;
+					transform-origin: left 50%;
+					transition: left 0.3s 0.05s, rotate 0.3s 0s;
+				}
+				&:after {
+					transform: rotate(45deg);
+					left: 0;
+					transform-origin: left 50%;
+					transition: left 0.3s 0.05s, rotate 0.3s 0s;
+				}
+				&:hover {
+					span {
+						width: 75px;
+						background-color: $purple;
+					}
+					&:before {
+						background-color: $purple;
+					}
+					&:after {
+						background-color: $purple;
+					}
+					transform: none;
+				}
+				&:active {
+					span {
+						width: 65px;
+					}
+					&:before {
+						transform: rotate(-35deg);
+					}
+					&:after {
+						transform: rotate(35deg);
+					}
+				}
+			}
+			&.slick-next {
+				left: calc(50% + 124px);
+				transform: none;
+				span {
+					right: 0;
+					transform-origin: right 50%;
+					transition: width 0.3s, right 0.3s 0.05s;
+				}
+				&:before {
+					transform: rotate(-45deg);
+					right: 0;
+					transform-origin: right 50%;
+					transition: right 0.3s 0.05s, rotate 0.3s 0s;
+				}
+				&:after {
+					transform: rotate(45deg);
+					right: 0;
+					transform-origin: right 50%;
+					transition: right 0.3s 0.05s, rotate 0.3s 0s;
+				}
+				&:hover {
+					span {
+						width: 75px;
+						background-color: $purple;
+					}
+					&:before {
+						background-color: $purple;
+					}
+					&:after {
+						background-color: $purple;
+					}
+					transform: none;
+				}
+				&:active {
+					span {
+						width: 65px;
+					}
+					&:before {
+						transform: rotate(-35deg);
+					}
+					&:after {
+						transform: rotate(35deg);
+					}
+				}
+			}
+		}
+	}
+}

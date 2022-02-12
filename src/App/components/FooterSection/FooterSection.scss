@@ -1,0 +1,57 @@
+.footer {
+	background-color: #f9fafb;
+	color: #98a2b3;
+	padding: 29px 0;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__col {
+		flex: 0 1 33.3333%;
+	}
+	&__copy {
+		font-family: 'Inter';
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: #98a2b3;
+		text-align: left;
+	}
+	&__logo {
+		width: 113px;
+		height: auto;
+		text-align: center;
+		margin: 0 auto;
+		img {
+			max-width: 100%;
+		}
+	}
+	&__info {
+		text-align: right;
+		font-family: 'Inter';
+		font-size: 16px;
+		line-height: 24px;
+		color: #98a2b3;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		a {
+			color: #6941c6;
+			text-decoration: none;
+			transition: all 0.3s ease 0s;
+			&:hover {
+				color: #b188ff;
+			}
+		}
+		.socials {
+			margin-bottom: 10px;
+		}
+	}
+	@media screen and (max-width: 991.88px) {
+	}
+	@media screen and (max-width: 767.88px) {
+	}
+	@media screen and (max-width: 480.88px) {
+	}
+}
