@@ -90,4 +90,28 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 767px) {
+		padding: 38px 0;
+		&__title {
+			padding-right: 0;
+			margin-bottom: 24px;
+			max-width: 100%;
+		}
+		.services__slider-wrapper {
+			display: flex;
+			flex-direction: column;
+		}
+		.slider-nav {
+			height: auto;
+			padding-left: 0;
+			.slick-slide.slick-cloned {
+				// display: block;
+			}
+		}
+		.services__slider-dots,
+		.services__slider-count {
+			display: none;
+		}
+	}
 }

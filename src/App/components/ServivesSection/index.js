@@ -24,7 +24,7 @@ const SERVICES = [
 	},
 	{
 		image: slider2,
-		text: 'Wall ar123123t',
+		text: 'Wall art',
 	},
 ];
 
@@ -46,6 +46,21 @@ const ServivesSection = () => {
 		beforeChange: (x, y) => {
 			setSlideIndex(y++);
 		},
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					arrows: false,
+					dots: false,
+					vertical: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					variableWidth: true,
+					centerMode: false,
+					infinite: true,
+				},
+			},
+		],
 	};
 	let settings2 = {
 		slidesToShow: 1,
@@ -58,7 +73,7 @@ const ServivesSection = () => {
 	};
 
 	return (
-		<div className='services'>
+		<div className='services' id='services'>
 			<div className='services__container _container'>
 				<div className='services__subtitle subtitle'>
 					{t('services.subtitle')}

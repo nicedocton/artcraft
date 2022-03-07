@@ -33,6 +33,17 @@ const BenefitsSection = () => {
 		variableWidth: true,
 		nextArrow: <SampleNextArrow />,
 		prevArrow: <SamplePrevArrow />,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					variableWidth: false,
+					arrows: false,
+				},
+			},
+		],
 	};
 	return (
 		<div className='benefits'>

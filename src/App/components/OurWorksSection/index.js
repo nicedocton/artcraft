@@ -41,6 +41,22 @@ const OurWorksSection = () => {
 		beforeChange: (x, y) => {
 			setSlideIndex(y++);
 		},
+		responsive: [
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 2,
+					centerMode: false,
+				},
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+				},
+			},
+		],
 	};
 	return (
 		<div className='ourWorks'>

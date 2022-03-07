@@ -48,12 +48,16 @@ body {
 		}
 	}
 }
+
 .title {
 	font-family: 'Lora';
 	font-weight: bold;
 	font-size: 40px;
 	line-height: 51px;
 	color: $brandColor;
+	@media screen and (max-width: 767.88px) {
+		text-align: center;
+	}
 }
 
 .subtitle {

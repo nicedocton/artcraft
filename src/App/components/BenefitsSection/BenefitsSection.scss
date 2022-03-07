@@ -64,4 +64,15 @@
 		position: relative;
 		z-index: 2;
 	}
+
+	@media screen and (max-width: 991px) {
+	}
+
+	@media screen and (max-width: 767px) {
+		padding: 38px 0;
+		&__title {
+			padding-right: 0;
+			margin-bottom: 24px;
+		}
+	}
 }

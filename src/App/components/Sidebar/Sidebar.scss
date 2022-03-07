@@ -1,9 +1,11 @@
+@import '../../scss/variables.scss';
+
 .sidebar {
 	position: fixed;
 	z-index: 50;
 	width: 100%;
 	height: 100%;
-	background: #006933;
+	background: #fff;
 	display: grid;
 	align-items: center;
 	top: 0;
@@ -27,11 +29,11 @@
 		color: #ffffff;
 	}
 	&__container {
-		color: #fff;
+		color: #222831;
 	}
 	&__menu {
 		li {
-			margin-bottom: 24px;
+			margin-bottom: 40px;
 			@media screen and (max-width: 767.88px) {
 				&:last-child {
 					margin-bottom: 0px;
@@ -43,23 +45,22 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font-weight: 600;
-		font-size: 24px;
-		line-height: 29px;
-		color: #ffffff;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 28px;
+		color: #222831;
 		text-decoration: none;
 		list-style: none;
 		transition: 0.2s ease-in-out;
 		text-decoration: none;
 		cursor: pointer;
-
 		&:hover {
-			color: #01bf71;
+			color: $purple;
 			transition: 0.2s ease-in-out;
 		}
 	}
 	&__info {
-		margin-top: 60px;
+		margin-top: 30px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -70,37 +71,24 @@
 			justify-content: center;
 			align-items: center;
 			margin-bottom: 24px;
+			width: 100%;
+			max-width: 380px;
 			a {
-				font-weight: 500;
-				font-size: 12px;
-				line-height: 15px;
-				text-align: right;
-				color: #ffffff;
+				display: block;
+				width: 100%;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 19px;
+				text-align: center;
+				color: #fff;
+				background-color: $purple;
 				transition: all 0.3s ease-in-out;
+				padding: 18px 18px;
+				border-radius: 10px;
 				&:hover {
-					color: #01bf71;
+					color: #fff;
+					background-color: $purpleHover;
 				}
-			}
-		}
-		&-socials {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		&-link {
-			width: 42px;
-			height: 42px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			border-radius: 50%;
-			background-color: rgba(255, 255, 255, 0.2);
-			transition: all 0.3 ease-in-out 0s;
-			margin: 0 6px;
-			svg {
-				fill: #ffffff;
-				max-width: 21px;
-				max-height: 18.5px;
 			}
 		}
 	}

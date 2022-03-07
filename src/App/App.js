@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import './scss/App.scss';
+import 'aos/dist/aos.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import FooterSection from './components/FooterSection';
@@ -9,9 +12,7 @@ import ServivesSection from './components/ServivesSection';
 import FeaturesSection from './components/FeaturesSection';
 import VideoSection from './components/VideoSection';
 import ContactSection from './components/ContactSection';
-import AOS from 'aos';
-import './scss/App.scss';
-import 'aos/dist/aos.css';
+import Sidebar from './components/Sidebar';
 
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -27,6 +28,7 @@ function App() {
 
 	return (
 		<div className={`wrapper ${isOpen ? 'isOpen' : ''}`}>
+			<Sidebar isOpen={isOpen} toggle={toggle} />
 			<Navbar isOpen={isOpen} toggle={toggle} />
 			<main className='main'>
 				<HeroSection />

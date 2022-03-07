@@ -105,9 +105,40 @@
 			transform: scale(1.1);
 		}
 	}
+	@media screen and (max-width: 1200.88px) {
+		.slick-arrow {
+			&.slick-prev {
+				left: 16px;
+			}
+			&.slick-next {
+				right: 16px;
+			}
+		}
+	}
 	@media screen and (max-width: 991.88px) {
 	}
 	@media screen and (max-width: 767.88px) {
+		padding-bottom: 38px;
+		&__container {
+			min-height: auto;
+			height: 305px;
+		}
+		.slick-arrow {
+			display: none;
+		}
+		&__play {
+			width: 48px;
+			height: 48px;
+			&:after {
+				width: 48px;
+				height: 48px;
+				background-size: 10px 13px;
+				background-position: left 21px center;
+			}
+		}
+		&__image {
+			height: 305px;
+		}
 	}
 	@media screen and (max-width: 480.88px) {
 	}

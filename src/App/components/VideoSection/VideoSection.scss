@@ -58,4 +58,14 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 767px) {
+		padding: 38px 0;
+		&__header {
+			width: 100%;
+		}
+		&__title {
+			margin-bottom: 24px;
+		}
+	}
 }

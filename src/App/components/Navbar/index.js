@@ -37,7 +37,6 @@ const Navbar = ({ isOpen, toggle }) => {
 				>
 					<span></span>
 					<span></span>
-					<span></span>
 				</div>
 				<ul className='navbar__menu menu'>
 					<li>
@@ -55,7 +54,7 @@ const Navbar = ({ isOpen, toggle }) => {
 					</li>
 					<li>
 						<Link
-							to='projects'
+							to='features'
 							smooth={true}
 							duration={500}
 							spy={true}
@@ -68,7 +67,7 @@ const Navbar = ({ isOpen, toggle }) => {
 					</li>
 					<li>
 						<Link
-							to='projects'
+							to='services'
 							smooth={true}
 							duration={500}
 							spy={true}

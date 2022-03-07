@@ -36,9 +36,24 @@ const FeaturesSection = () => {
 		dots: false,
 		nextArrow: <SampleNextArrow />,
 		prevArrow: <SamplePrevArrow />,
+		responsive: [
+			{
+				breakpoint: 991,
+				settings: {
+					slidesToShow: 1,
+				},
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					arrows: false,
+				},
+			},
+		],
 	};
 	return (
-		<div className='features'>
+		<div className='features' id='features'>
 			<div className='features__container _container'>
 				<div className='features__header'>
 					<div className='features__subtitle subtitle'>
