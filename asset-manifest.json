@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/artcraft/static/css/main.f7a6ad2c.chunk.css",
-    "main.js": "/artcraft/static/js/main.dd4f0d09.chunk.js",
-    "main.js.map": "/artcraft/static/js/main.dd4f0d09.chunk.js.map",
+    "main.css": "/artcraft/static/css/main.f4ad8837.chunk.css",
+    "main.js": "/artcraft/static/js/main.0e49279b.chunk.js",
+    "main.js.map": "/artcraft/static/js/main.0e49279b.chunk.js.map",
     "runtime-main.js": "/artcraft/static/js/runtime-main.749450c0.js",
     "runtime-main.js.map": "/artcraft/static/js/runtime-main.749450c0.js.map",
-    "static/css/2.265c5e4e.chunk.css": "/artcraft/static/css/2.265c5e4e.chunk.css",
-    "static/js/2.f728b463.chunk.js": "/artcraft/static/js/2.f728b463.chunk.js",
-    "static/js/2.f728b463.chunk.js.map": "/artcraft/static/js/2.f728b463.chunk.js.map",
+    "static/css/2.bac311c8.chunk.css": "/artcraft/static/css/2.bac311c8.chunk.css",
+    "static/js/2.9ca0b07e.chunk.js": "/artcraft/static/js/2.9ca0b07e.chunk.js",
+    "static/js/2.9ca0b07e.chunk.js.map": "/artcraft/static/js/2.9ca0b07e.chunk.js.map",
     "index.html": "/artcraft/index.html",
-    "static/css/2.265c5e4e.chunk.css.map": "/artcraft/static/css/2.265c5e4e.chunk.css.map",
-    "static/css/main.f7a6ad2c.chunk.css.map": "/artcraft/static/css/main.f7a6ad2c.chunk.css.map",
-    "static/js/2.f728b463.chunk.js.LICENSE.txt": "/artcraft/static/js/2.f728b463.chunk.js.LICENSE.txt",
+    "static/css/2.bac311c8.chunk.css.map": "/artcraft/static/css/2.bac311c8.chunk.css.map",
+    "static/css/main.f4ad8837.chunk.css.map": "/artcraft/static/css/main.f4ad8837.chunk.css.map",
+    "static/js/2.9ca0b07e.chunk.js.LICENSE.txt": "/artcraft/static/js/2.9ca0b07e.chunk.js.LICENSE.txt",
     "static/media/1.4964c1cb.jpg": "/artcraft/static/media/1.4964c1cb.jpg",
     "static/media/1.fc99255a.jpg": "/artcraft/static/media/1.fc99255a.jpg",
     "static/media/2.b70c8a96.jpg": "/artcraft/static/media/2.b70c8a96.jpg",
     "static/media/2.e886f187.jpg": "/artcraft/static/media/2.e886f187.jpg",
     "static/media/about.3b6b0424.png": "/artcraft/static/media/about.3b6b0424.png",
-    "static/media/App.scss": "/artcraft/static/media/caret-white.cf251e6c.svg",
+    "static/media/HeroSection.scss": "/artcraft/static/media/caret-white.cf251e6c.svg",
     "static/media/chrome.e9008675.svg": "/artcraft/static/media/chrome.e9008675.svg",
     "static/media/clock.c305aebe.svg": "/artcraft/static/media/clock.c305aebe.svg",
     "static/media/facebook.bacdef97.svg": "/artcraft/static/media/facebook.bacdef97.svg",
@@ -38,9 +38,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.749450c0.js",
-    "static/css/2.265c5e4e.chunk.css",
-    "static/js/2.f728b463.chunk.js",
-    "static/css/main.f7a6ad2c.chunk.css",
-    "static/js/main.dd4f0d09.chunk.js"
+    "static/css/2.bac311c8.chunk.css",
+    "static/js/2.9ca0b07e.chunk.js",
+    "static/css/main.f4ad8837.chunk.css",
+    "static/js/main.0e49279b.chunk.js"
   ]
 }
