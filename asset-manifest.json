@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/artcraft/static/css/main.f4ad8837.chunk.css",
+    "main.css": "/artcraft/static/css/main.816f7a11.chunk.css",
     "main.js": "/artcraft/static/js/main.0e49279b.chunk.js",
     "main.js.map": "/artcraft/static/js/main.0e49279b.chunk.js.map",
     "runtime-main.js": "/artcraft/static/js/runtime-main.749450c0.js",
@@ -10,7 +10,7 @@
     "static/js/2.9ca0b07e.chunk.js.map": "/artcraft/static/js/2.9ca0b07e.chunk.js.map",
     "index.html": "/artcraft/index.html",
     "static/css/2.bac311c8.chunk.css.map": "/artcraft/static/css/2.bac311c8.chunk.css.map",
-    "static/css/main.f4ad8837.chunk.css.map": "/artcraft/static/css/main.f4ad8837.chunk.css.map",
+    "static/css/main.816f7a11.chunk.css.map": "/artcraft/static/css/main.816f7a11.chunk.css.map",
     "static/js/2.9ca0b07e.chunk.js.LICENSE.txt": "/artcraft/static/js/2.9ca0b07e.chunk.js.LICENSE.txt",
     "static/media/1.4964c1cb.jpg": "/artcraft/static/media/1.4964c1cb.jpg",
     "static/media/1.fc99255a.jpg": "/artcraft/static/media/1.fc99255a.jpg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.749450c0.js",
     "static/css/2.bac311c8.chunk.css",
     "static/js/2.9ca0b07e.chunk.js",
-    "static/css/main.f4ad8837.chunk.css",
+    "static/css/main.816f7a11.chunk.css",
     "static/js/main.0e49279b.chunk.js"
   ]
 }
